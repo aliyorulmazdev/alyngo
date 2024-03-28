@@ -86,21 +86,21 @@ const main = async () => {
         imageSrc: '/four.svg',
         correct: true,
         text: 'Four',
-        audioSrc: '/four.mp3'
+        audioSrc: '/four.wav'
       },
       {
         challengeId: 1,
         imageSrc: '/one.svg',
         correct: false,
         text: 'One',
-        audioSrc: '/one.mp3'
+        audioSrc: '/one.wav'
       },
       {
         challengeId: 1,
         imageSrc: '/two.svg',
         correct: false,
         text: 'Two',
-        audioSrc: '/two.mp3'
+        audioSrc: '/two.wav'
       },
     ]),
     await db.insert(schema.challengeOptions).values([
@@ -109,21 +109,21 @@ const main = async () => {
         imageSrc: '/woman.svg',
         correct: false,
         text: 'Woman',
-        audioSrc: '/woman.mp3'
+        audioSrc: '/woman.wav'
       },
       {
         challengeId: 2,
         imageSrc: '/man.svg',
         correct: false,
         text: 'Man',
-        audioSrc: '/man.mp3'
+        audioSrc: '/man.wav'
       },
       {
         challengeId: 2,
         imageSrc: '/boy.svg',
         correct: true,
         text: 'Boy',
-        audioSrc: '/boy.mp3'
+        audioSrc: '/boy.wav'
       },
     ])
 
